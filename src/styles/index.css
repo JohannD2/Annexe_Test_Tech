@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  //font-family: "Oleo Script Swash Caps", cursive;
+  font-family: "Kalam", cursive;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  aling-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff5f1;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  text-align: center;
+  margin-bottom: 2px;
+  font-size: 30px;
+  font-weight: 400;
+  background-color: #fff5f1;
+}
+input:focus {
+  border: none;
+  outline: none;
+}
+
+input::placeholder {
+  color: #bb8379;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.btn {
+  font-size: 40px;
+  background-color: #da2a2a;
+  color: #fff5f1;
+  padding: 10px 25px;
+  border-radius: 5px;
+  max-width: 200px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #bb8379;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.body_two {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #fff5f1;
+  margin: 20px;
+  height: 100vh;
+}
+
+.content_two {
+  display: flex;
+  flex-direction: column;
+  aling-items: center;
+  justify-content: center;
+
+  margin-right: 50px;
+  height: 100vh;
+  width: 1000px;
+}
+
+span {
+  font-size: 35px;
+  font-weight: 400;
+  padding: 10px;
+  inline-size: 50px;
+}
+
+.probability {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+
+.button_Next {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.button_back {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.title_two {
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  align-items: center;
+  margin-bottom: 50px;
+}
